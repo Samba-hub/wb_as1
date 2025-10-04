@@ -1,56 +1,60 @@
-
-
-.navigation{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+/* navigation bar font */
+.navigation {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav_div{
-    background-color: white;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+/* navigation bar items  */
+.nav_div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo a{
-    font-size: 42px;
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
+/* website title */
+.logo a {
+  font-size: 42px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
 }
 
-div.nav_div ul li{
-    list-style: none;
-    display: inline-block;
+/* listing UL list items horizontally */
+div.nav_div ul li {
+  list-style: none;
+  display: inline-block;
 }
 
-div.nav_div ul li a{
-    color: black;
-    font-size: 20px;
-    font-weight:bold;
-    margin-right: 30px;
-    text-decoration: none;
+/* manage UL list items font */
+div.nav_div ul li a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  text-decoration: none;
 }
 
- span.website-header{
-    font-size: 32px;
- }
-
-div.website-banner h1{
-    padding-left: 15px;
-    font-size: 50px;
-    
+/* website header font size */
+span.website-header {
+  font-size: 32px;
 }
 
+/* website banner main heading */
+div.website-banner h1 {
+  padding-left: 15px;
+  font-size: 50px;
+}
+
+/* website banner */
 div.website-banner {
-  height: 200px; 
+  height: 200px;
   width: 100%;
-  
+
   background: url("images/Screenshot from 2025-09-29 18-59-45.png");
   background-size: cover;
-  background-position: 0% 0%; 
+  background-position: 0% 0%;
   background-repeat: repeat;
-  
+
   display: flex;
   align-items: up;
   justify-content: left;
@@ -58,124 +62,185 @@ div.website-banner {
   text-shadow: 2px 2px 4px #000000;
 }
 
-div.website_body{
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: yellow;
+/* main body of website */
+div.website_body {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.section_1{
-    background-color: aquamarine;
-    overflow: auto;
-    
+/* section 1 title color */
+.section_1_title{
+    color: black;
 }
 
+/* section paragraph color */
+.section_par{
+    color: black;
+}
 
+/* sub item image width */
+div.sub_item img {
+  width: 500px;
+}
 
+/* float image in item-2 to the left */
+div.sub_item#item-2 img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* adjusting position for paragraph tag */
+div.sub_item p {
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 48px;
+}
+
+/* managing positioning of div children */
+div.sub_item {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  display: flex;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: black;
+
+}
+
+/* sub item image dimensions */
 div.sub_item img{
-    /* float: right; */
-    /* margin-right: 20px; */
-    width: 500px;
+  width: 700px;
+  height: 500px;
 }
 
-div.sub_item#item-2 img{
-    float: left;
-    margin-right: 20px;
+/* specific styling for sub item 1 */
+div.sub_item#item-1 {
+  display: flex;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
-div.sub_item p{
-    padding-top: 50px;
-    margin-top: 50px;
-    padding-bottom: 48px;
+/* specific styling for index item 1 */
+.sub_item#index_1 {
+  background-color: black;
+  margin-bottom: 100px;
+  display: flex;
+  padding-left: 20px;
 }
 
-div.sub_item{
-    overflow: auto;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    gap: 40px;
-
+/* image width for index item 1 */
+.sub_item#index_1 img {
+  width: 1000px;
 }
 
-div.sub_item#item-1{
-    background-color: brown;
+/* styling for the 'about us' anchor heading */
+div.about_us h2#anchor {
+  text-align: left;
+  text-decoration-line: underline;
+  text-size-adjust: 32px;
 }
 
-
-div.sub_item#item-2{
-    background-color: thistle;
-    object-fit: cover;
+/* center align 'about us' headings */
+div.about_us h2 {
+  text-align: center;
 }
 
-div.sub_item#item-3{
-    background-color: blueviolet;
-}
-
-.sub_item#index_1{
-    background-color: gray;
-    margin-bottom: 100px;
-}
-
-.sub_item#index_1 img{
-    width: 800px;
-}
-
-div.about_us h2#anchor{
-    text-align: left;
-    text-decoration-line: underline;
-    text-size-adjust: 32px;
-}
-
-div.about_us h2{
-    text-align: center;
-}
-
+/* container for a group of items */
 .items_group {
-    background-color: antiquewhite;
-    box-sizing: border-box;
-    margin-left: 200px;
-    display: inline-flex; 
-    gap: 60px; 
-    padding: 30px; 
-    align-items: flex-start;
+  background-color: black ;
+  margin-left: 200px;
+  display: inline-flex;
+  gap: 60px;
+  padding: 30px;
+  align-items: flex-start;
 }
 
+/* individual element within the items group */
 .items_element {
-    float: left;
-    padding: 30px;
-    background-color: tomato;
-    width: 400px;           
-    box-sizing: border-box; 
+  float: left;
+  padding: 30px;
+  width: 400px;
+
+  box-sizing: border-box;
 }
 
-.items_element img{
-    width: 100%; 
-    height: 250px;
-    display: block;
+/* image styling for an item element */
+.items_element img {
+  width: 100%;
+  height: 250px;
+  display: block;
 }
 
-.Section_2{
-    background-color: cadetblue;
-    overflow: auto;
+/* styling for section 2 container */
+.Section_2 {
+  overflow: auto;
 }
 
+/* styling for column layout items */
 .column_item {
-    background-color: blueviolet;
-    margin-top: 50px;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 30px;
 }
 
+/* image styling for an item cluster */
 .item_cluster img {
-    width: 300px;
-    display: block; 
-    margin-left: 30px;
-    
+  width: 500px;
+  display: block;
+  margin-left: 30px;
 }
 
+/* specific styling for column item 2 */
+.column_item#item-2 {
+  background-color: black;
+}
 
-.column_item#item-2{
+/* default paragraph styling */
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+}
+
+/* default h2 heading styling */
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+}
+
+/* creates a parallelogram shape */
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+}
+
+/* background color for the 'about' page body */
+.website_body#about{
     background-color: darkcyan;
+}
+
+/* font size for item paragraphs */
+.item-par{
+    font-size: 20px;
+}
+
+/* blockquote text color */
+blockquote{
+  color: white;
 }
