@@ -1,0 +1,10 @@
+- double check titles of each page
+- indenting
+- white space
+- document code 
+- DOCTYPE declaration (done?) yes
+- cite and address tag # deep space , about us
+- blockquote tag done
+- special characters(point 14)
+- point 16? done
+

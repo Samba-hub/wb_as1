@@ -66,15 +66,16 @@ div.website_body{
 
 .section_1{
     background-color: aquamarine;
-    
     overflow: auto;
+    
 }
 
 
 
 div.sub_item img{
-    float: right;
-    margin-right: 20px;
+    /* float: right; */
+    /* margin-right: 20px; */
+    width: 500px;
 }
 
 div.sub_item#item-2 img{
@@ -90,7 +91,10 @@ div.sub_item p{
 
 div.sub_item{
     overflow: auto;
-    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px;
 
 }
 
@@ -101,12 +105,21 @@ div.sub_item#item-1{
 
 div.sub_item#item-2{
     background-color: thistle;
+    object-fit: cover;
 }
 
 div.sub_item#item-3{
     background-color: blueviolet;
 }
 
+.sub_item#index_1{
+    background-color: gray;
+    margin-bottom: 100px;
+}
+
+.sub_item#index_1 img{
+    width: 800px;
+}
 
 div.about_us h2#anchor{
     text-align: left;
@@ -145,4 +158,24 @@ div.about_us h2{
 .Section_2{
     background-color: cadetblue;
     overflow: auto;
+}
+
+.column_item {
+    background-color: blueviolet;
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.item_cluster img {
+    width: 300px;
+    display: block; 
+    margin-left: 30px;
+    
+}
+
+
+.column_item#item-2{
+    background-color: darkcyan;
 }
